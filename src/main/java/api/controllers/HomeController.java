@@ -1,9 +1,7 @@
 package api.controllers;
 
 
-import api.models.Home;
-import models.User;
-import repository.UserRepository;
+import models.Home;
 
 import javax.enterprise.context.RequestScoped;
 import javax.ws.rs.GET;
@@ -19,8 +17,6 @@ import javax.ws.rs.core.MediaType;
 @RequestScoped
 public class HomeController
 {
-    private UserRepository userRepo;
-
     @GET
     @Path("/get")
     @Produces(MediaType.APPLICATION_JSON)

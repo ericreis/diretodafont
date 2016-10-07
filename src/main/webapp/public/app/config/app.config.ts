@@ -12,11 +12,6 @@
             	controller: App.Components.Home.HomeController,
             	controllerAs: 'homeCtrl'
 			})
-			.when('/user', {
-				templateUrl: 'public/app/components/user/user.html',
-				controller: App.Components.User.UserController,
-				controllerAs: 'userCtrl'
-			})
 			.otherwise({
 	            redirectTo: '/'
 	        });

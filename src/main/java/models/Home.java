@@ -1,4 +1,4 @@
-package api.models;
+package models;
 
 /**
  * Simple model class
